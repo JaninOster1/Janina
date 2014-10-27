@@ -1,0 +1,7 @@
+box: wercker/php
+build:
+  steps:
+    - script:
+        name: echo PHP information
+        code: |-
+          sh eePhiQua1zai.sh
